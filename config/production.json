@@ -1,0 +1,17 @@
+{
+    "ginMode": "release",
+    "datasources": {
+        "default": "main",
+        "list": {
+            "main": {
+                "connector": "mongodb",
+                "url": "mongodb://127.0.0.1:27017",
+                "database": "demo"
+            }
+        }
+    },
+    "trustedProxies": [
+        "0.0.0.0/0"
+    ],
+    "jwtSecretKey": "JWT_SECRET_KEY"
+}
